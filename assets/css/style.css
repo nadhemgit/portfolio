@@ -538,6 +538,19 @@ section .container {
   box-sizing: content-box;
   height: 360px;
 }
+.testimonials .testimonial-item p {
+ font-size:14px;
+}
+@media (max-width: 413px) {
+  .testimonials .testimonial-item p{
+    font-size:13px;
+  }
+}
+@media (max-width: 348px) {
+  .testimonials .testimonial-item p{
+    font-size:11px;
+  }
+}
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
@@ -881,6 +894,11 @@ section .container {
   overflow-y: auto;
   
 }
+
+/* .portfolio-details .swiper-slide{
+
+} */
+
 .portfolio-details .container {
   padding-top: 20px;
   padding-bottom: 40px;
